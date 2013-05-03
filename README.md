@@ -9,7 +9,7 @@ Drop folder into your SilverStripe project and run /dev/build
 
 ## Usage ##
 
-$fields = new FieldList();
-$treeField = new OptionalTreeDropdownField('MyFieldID', 'My Field Title', 'SiteTree');
-$treeField->setEmptyString('(Choose)');
+$fields = new FieldList();  
+$treeField = new OptionalTreeDropdownField('MyFieldID', 'My Field Title', 'SiteTree');  
+$treeField->setEmptyString('(Choose)');  
 $fields->push($treeField);
