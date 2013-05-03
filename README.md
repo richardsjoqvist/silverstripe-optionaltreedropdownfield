@@ -1,7 +1,10 @@
 ## SilverStripe OptionalTreeDropdownField
 
 This module extends SilverStripe TreeDropdownField to allow clearing a selection.
-Tested with SilverStripe 3.0.5.
+
+## Requirements
+
+* SilverStripe 3.0
 
 ## Installation ##
 
