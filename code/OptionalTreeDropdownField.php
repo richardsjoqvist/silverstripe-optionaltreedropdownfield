@@ -2,7 +2,7 @@
 /**
  * Extend SilverStripe TreeDropdownField to allow clearing a selection
  *
- * Tested with SilverStripe 3.0.5
+ * Tested with SilverStripe 3.1.2
  *
  * Usage:
  * $treeField = new OptionalTreeDropdownField('MyFieldID', 'My Field Title', 'SiteTree');
@@ -10,6 +10,10 @@
  */
 class OptionalTreeDropdownField extends TreeDropdownField
 {
+
+	private static $allowed_actions = array(
+		'tree'
+	);
 
 	/**
 	 * @var boolean $hasEmptyDefault Show the first <option> element as
