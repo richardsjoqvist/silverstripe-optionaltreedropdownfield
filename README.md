@@ -4,7 +4,7 @@ This module extends SilverStripe TreeDropdownField to allow clearing a selection
 
 ## Requirements
 
-* SilverStripe 3.1
+* SilverStripe 3.1 (or higher)
 
 ## Installation ##
 
