@@ -8,11 +8,14 @@ This module extends SilverStripe TreeDropdownField to allow clearing a selection
 
 ## Installation ##
 
-Drop folder into your SilverStripe project and run /dev/build
+1. Run `composer require patricknelson/silverstripe-optionaltreedropdownfield`
+1. Run `sake /dev/build`
 
 ## Usage ##
 
+```php
 $fields = new FieldList();  
 $treeField = new OptionalTreeDropdownField('MyFieldID', 'My Field Title', 'SiteTree');  
 $treeField->setEmptyString('No page');
 $fields->push($treeField);
+```
