@@ -8,7 +8,7 @@ This module extends SilverStripe TreeDropdownField to allow clearing a selection
 
 ## Installation ##
 
-1. Run `composer require patricknelson/silverstripe-optionaltreedropdownfield`
+1. Run `composer require richardsjoqvist/silverstripe-optionaltreedropdownfield`
 1. Run `sake /dev/build`
 
 ## Usage ##
